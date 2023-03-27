@@ -51,7 +51,6 @@ code {
     monospace;
 }
 
-
 /* Generic Style */
 .heading-primary {
   font-size: clamp(5rem , 7vw, 9rem);
