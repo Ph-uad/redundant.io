@@ -1,0 +1,17 @@
+@media (max-width:64em) {
+    .detail{
+        padding-top: 30%;
+    }
+    .media{
+        height: 60%;
+    }
+}
+.header {
+    height: 100vh;
+    margin: auto;
+}
+.detail {align-self: center;}
+.media {
+    flex: 1 50%;
+    position: relative;
+}

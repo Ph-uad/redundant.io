@@ -1,0 +1,27 @@
+.post_jobs, .quote {
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.post_jobs {
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
+    background: var(--accent-color-1);
+    color: var(--accent-color-5);
+}
+
+.post_jobs-detail {
+    flex: 1 35%;
+}
+
+.icons {
+    flex: 1 65%;
+}
+
+
+
+@media (min-width:64em) {
+    .quote {
+        width: 40%;
+    }
+}
