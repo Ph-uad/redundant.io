@@ -1,0 +1,30 @@
+.job{
+    margin: 10rem auto;
+}
+.item{
+    flex: 1 40%;
+    gap: 2rem;
+    align-items: center;
+}
+
+.list{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    gap: 5rem;
+    cursor: pointer;
+}
+
+@media (min-width:64em) {
+    .logo{
+        flex: 0 25%;
+    }
+    .detail{
+        flex: 0 75%;
+    } 
+}
+
+
+.description{
+    font-size: 1.4rem;
+}
