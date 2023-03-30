@@ -1,5 +1,6 @@
 .job{
     margin: 10rem auto;
+    padding: 2rem 4rem;
 }
 .item{
     flex: 1 40%;
@@ -8,9 +9,9 @@
 }
 
 .list{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(33vw, 1fr));
     gap: 5rem;
     cursor: pointer;
 }

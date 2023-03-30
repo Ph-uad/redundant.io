@@ -17,14 +17,14 @@ const jobs = [
         location: 'Mountain View, CA',
         logo: 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png',
         description: 'Join the team building the world\'s most advanced search engine.',
-        title: 'Lorem Lorem',
+        title: 'Assistant Manager',
         closingDate: '2023-04-01',
     },
     {
         id: 1,
         company: 'Google',
         logo: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
-        title: 'Software Engineer',
+        title: 'IT technician',
         location: 'Mountain View, CA',
         description: 'Develop, test, and deploy software applications and systems. Collaborate with cross-functional teams to identify and prioritize features and requirements.',
         closingDate: '2023-04-01',
@@ -51,7 +51,7 @@ const jobs = [
         id: 4,
         company: 'Amazon',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
-        title: 'Product Manager',
+        title: 'Affiliate Marketer',
         location: 'Seattle, WA',
         description: 'Define product vision and strategy, gather and prioritize requirements, and work with engineering, design, and other teams to build and launch new products and features.',
         closingDate: '2023-04-10',
@@ -62,15 +62,6 @@ const jobs = [
 const JobList = () => {
     return (
         <div className={ styles.job }>
-            <div className="container">
-                <div className="flex">
-                    <div className="width-min">
-                        <h2 className="heading-secondary">Available Spots</h2>
-                        <p>Browse and apply to the best new remote jobs at leading remote companies and startups for free. No account or sign-up required. Updated daily.</p>
-                    </div>
-                    <span>Find More &rarr;</span>
-
-                </div>
                 <ul className={`${styles.list} list` }>
                     {
                         jobs.map(job => {
@@ -92,7 +83,6 @@ const JobList = () => {
                         })
                     }
                 </ul>
-            </div>
         </div>
     )
 }

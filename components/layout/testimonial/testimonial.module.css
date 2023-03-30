@@ -1,3 +1,9 @@
+.testimonial{
+    /* min-height: 95vh; */
+    background: no-repeat center center/cover;
+    background-image:linear-gradient( var(--color-primary-transparent),var(--color-primary-transparent)), url(../../../public/backgrounds/background1.jpg);
+}
+
 .post_jobs, .quote {
     width: 100%;
     padding-top: 10rem;
@@ -6,16 +12,18 @@
 
 .post_jobs {
     clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
-    background: var(--accent-color-1);
-    color: var(--accent-color-5);
+    background: var(--accent-color-5);
 }
 
 .post_jobs-detail {
-    flex: 1 35%;
+    flex: 1 55%;
+}
+.post_jobs-detail > button{
+    margin-top: 1.5rem;
 }
 
 .icons {
-    flex: 1 65%;
+    flex: 1 45%;
 }
 
 
