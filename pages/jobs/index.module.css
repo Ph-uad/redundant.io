@@ -1,0 +1,11 @@
+.sidebar{
+    position: sticky;
+    top: 10%;
+    right: 0;
+    background: var(--color-primary-transparent);
+    border: 1px solid var(--accent-color-2);
+    padding: 2rem;
+    flex: 0 30%;
+    margin: 2rem;
+    border-radius: 10px;
+}
